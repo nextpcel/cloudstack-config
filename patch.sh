@@ -6,7 +6,6 @@ cp /usr/share/cloudstack-management/webapp/assets/* assets/
 cp /usr/share/cloudstack-management/webapp/locales/*.json locales/
 cp /usr/share/cloudstack-management/webapp/index.html .
 cp /usr/share/cloudstack-management/webapp/error.html .
-cp /usr/share/cloudstack-management/webapp/color.less .
 
 # Patch HTML
 sed -i -e 's/Apache CloudStack/PCEL Cloud/g' -e 's/CloudStack/PCEL Cloud/g' error.html
@@ -25,7 +24,6 @@ git checkout -- locales/es.json
 cp cloud.ico /usr/share/cloudstack-management/webapp/cloud.ico
 cp locales/*.json /usr/share/cloudstack-management/webapp/locales/
 cp assets/* /usr/share/cloudstack-management/webapp/assets/
-cp color.less /usr/share/cloudstack-management/webapp/color.less
 cp index.html /usr/share/cloudstack-management/webapp/index.html
 cp error.html /usr/share/cloudstack-management/webapp/error.html
 
