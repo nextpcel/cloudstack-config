@@ -92,7 +92,7 @@
     ]
   },
   "plugins": [],
-  "apidocs": true,
+  "apidocs": false,
   "basicZoneEnabled": true,
   "multipleServer": false,
   "allowSettingTheme": true,
